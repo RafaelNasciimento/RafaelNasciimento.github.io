@@ -1,0 +1,23 @@
+@media screen and (max-width: 1020px){
+/*class gerais*/
+.flex {
+    flex-direction: column; 
+}
+h2.titulo {
+    font-size: 34px;
+    line-height: 30px; 
+}
+.topo-do-site .flex {
+    flex-direction: column-reverse; 
+}
+
+
+
+/*cabeçalho*/
+.menu-desktop, .btn-contato{
+    display: none;
+}
+header .btn-abrir-menu{
+    display: block;
+}
+}

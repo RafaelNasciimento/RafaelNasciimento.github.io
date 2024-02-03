@@ -1,0 +1,147 @@
+/*certificado*/
+@media screen and (max-width: 816px){
+.manual-navigation {
+    position: absolute;
+    width: 100px;
+    margin-top: 470px;
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 725px){
+.manual-navigation {
+    margin-top: 300px;
+}
+}
+
+@media screen and (max-width: 566px){
+
+/*topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+    
+}
+section.topo-do-site .flex{
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+section.topo-do-site .interface .txt-topo-site h1 {
+    color: white;
+    margin-top: 12px;
+    font-size: 32px;
+    line-height: 40px;
+}
+section.topo-do-site  .txt-topo-site h1 span{
+    color: #76DB98;
+}
+section.topo-do-site  p {
+    color: white;
+}
+section.topo-do-site .txt-topo-site h1 {
+    padding: 2px 0%;
+}
+section.topo-do-site  .txt-topo-site p{
+   margin: 40px 0;  
+}
+.img-topo-site:hover {
+    transform: scale(1.05); 
+    transition: .9s;
+}
+.img-topo-site {
+    margin: 0px 0px; 
+    padding: 2px 0%;
+}
+.topo-do-site .img-topo-site img{  
+    width: 300px;               
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}  
+
+
+
+
+
+
+/*Especialidades*/
+section.especialidades{
+    padding: 40px 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEUS CERTIFICADOS */
+section.meus-certi .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+section.meus-certi .slider .slides {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide{
+    width: 190%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 400px;
+    margin-top: -0px;
+    
+}
+.manual-navigation {
+    position: absolute;
+    width: 100px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+}
+    
+@media screen and (max-width: 416px){
+section.meus-certi .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+}
+.slide img{
+    width: 300px;
+    margin-top: -0px;
+}
+}

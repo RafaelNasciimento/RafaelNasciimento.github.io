@@ -1,0 +1,24 @@
+/* RODAPÉ */
+footer{
+    box-shadow: 0 0 40px 10px #ffffff27;
+}
+footer .flex {
+    justify-content: space-between;
+}
+footer .line-footer {
+    padding: 20px 0;
+}
+.borda{
+ border-top: 2px solid #76DB98;
+}
+footer .btn-social {
+    margin-top: 20px;
+}
+footer .line-footer p i{
+   color: #76DB98;
+   font-size: 22px;
+   margin: 10px;
+}
+footer .line-footer p a{
+    color: white;
+}
