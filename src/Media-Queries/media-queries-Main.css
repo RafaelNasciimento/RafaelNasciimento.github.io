@@ -61,7 +61,7 @@ section.portifolio .flex{
 
 /*projetos2*/
 section.portifolio2 {
-    padding: 80px 8%;
+    padding: 80px 10%;
 }
 section.portifolio2 .flex{
      gap: 60px;
@@ -317,6 +317,7 @@ section.portifolio{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff27; 
 }
+
     
 section.portifolio .img-port{
     width: 360px;
@@ -380,9 +381,8 @@ section.portifolio .interface .flex4 .btn-social4  .grup3{
     
 /*PROEJTOS 2*/
 /* geral */
-section.portifolio2{
-    padding: 80px 13%;
-    box-shadow: 0 0 40px 10px #ffffff27; 
+section.portifolio2 {
+    padding: 80px 10%;
 }
 section.portifolio2 .img-port{
     width: 360px;
@@ -398,16 +398,16 @@ section.portifolio2 .img-port{
 
 /*posi indv.*/
 section.portifolio2 .umu{
-    margin-left: -80px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 section.portifolio2 .doiss{
-    margin-left: -80px;
+    margin-left: -9px;
     margin-right: 0px;
     margin-top: -65px;
 }
 section.portifolio2 .tress{
-    margin-left: -80px;
+    margin-left: -9px;
     margin-right: 0px;
 }
 
