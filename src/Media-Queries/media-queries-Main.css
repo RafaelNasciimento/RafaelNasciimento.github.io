@@ -323,6 +323,11 @@ section.portifolio .img-port{
     height: 460px;
     
 }
+
+section.portifolio2 .flex2{
+    display: none;
+    
+}
     
 /*posi indv.*/
 section.portifolio .um{
@@ -532,6 +537,8 @@ section.portifolio2 .img-port{
     height: 360px;
 }
 }
+
+
 
 
 
