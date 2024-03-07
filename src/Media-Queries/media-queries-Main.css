@@ -472,6 +472,21 @@ section.portifolio .interface .flex4 .btn-social4 {
 section.portifolio2 .interface2 .flex4 .btn-social4 {
     display: none;
 }
+
+/*posi indv.*/
+section.portifolio2 .umu{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+section.portifolio2 .doiss{
+    margin-left: -35px;
+    margin-right: 0px;
+    margin-top: -65px;
+}
+section.portifolio2 .tress{
+    margin-left: -35px;
+    margin-right: 0px;
+}
 }
 
 @media screen and (max-width: 430px){
