@@ -1,0 +1,366 @@
+/*topo do site */
+section.topo-do-site {
+  padding: 40px 4%;
+}
+section.topo-do-site .flex {
+  align-items: center;
+  gap: 90px;
+  justify-content: flex-end;
+}
+.topo-do-site h1 {
+  color: white;
+  font-size: 42px;
+  line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span {
+  color: #76db98;
+}
+.topo-do-site p {
+  color: white;
+}
+.txt-topo-site h1 {
+  padding: 2px 0%;
+}
+.topo-do-site .txt-topo-site p {
+  margin: 40px 0;
+}
+.img-topo-site:hover {
+  transform: scale(1.05);
+  transition: 0.9s;
+}
+.img-topo-site {
+  margin: 0px -50px;
+  padding: 2px 0%;
+}
+.topo-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+/* ESPECIALIDADES */
+section.especialidades {
+  padding: 40px 4%;
+}
+section.especialidades .flex {
+  gap: 60px;
+}
+.especialidades .especialidades-box {
+  color: white;
+  padding: 40px;
+  transition: 0.5s;
+  border-radius: 20px;
+  margin-top: 45px;
+}
+.especialidades .especialidades-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffffff67;
+}
+.especialidades .especialidades-box i {
+  font-size: 70px;
+  color: #76db98;
+}
+.especialidades .especialidades-box h3 {
+  font-size: 28px;
+  margin: 15px 0px;
+}
+
+/* SOBRE MIM */
+section.sobre {
+  padding: 40px 4%;
+}
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+.sobre .txt-sobre {
+  color: white;
+}
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span {
+  color: #76db98;
+  display: block;
+}
+.sobre .txt-sobre h2 p {
+  margin: 20px 0px;
+  text-align: justify;
+}
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #76db98;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 40px 0px;
+}
+
+/*PROEJTOS*/
+/* geral */
+section.portifolio {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #ffffff27;
+}
+section.portifolio .flex {
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+/*posi indv.*/
+.um {
+  margin-right: 5px;
+}
+.dois {
+  margin-right: 35px;
+}
+.tres {
+  margin-right: 20px;
+}
+
+/* imgs */
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-color: #76db98;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+.img-port:hover {
+  background-position: 100% 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: #00000021;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+/* Bottons 1*/
+.portifolio .interface .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #76db98;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 40px 0px;
+  justify-content: center;
+}
+section.portifolio .interface .flex2 .btn-social {
+  justify-content: space-around;
+  display: flex;
+  gap: 2px;
+}
+
+/* Bottons 2*/
+.portifolio .interface .btn-social4 button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #76db98;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 40px 0px;
+  justify-content: center;
+}
+section.portifolio .interface .flex4 .btn-social4 {
+  display: none;
+}
+
+/* PROEJTOS2 */
+/* geral */
+section.portifolio2 {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #ffffff27;
+}
+section.portifolio2 .flex {
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+/*posi indv.*/
+.umu {
+  margin-left: 140px;
+}
+.doiss {
+  margin-left: 60px;
+  margin-right: 120px;
+}
+.tress {
+  margin-right: 140px;
+}
+
+/* imgs */
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-color: #76db98;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+.img-port:hover {
+  background-position: 100% 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: #00000021;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+/* Bottons 1*/
+.portifolio2 .interface2 .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #76db98;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 40px 0px;
+  justify-content: center;
+}
+section.portifolio2 .interface2 .flex2 .btn-social {
+  justify-content: space-around;
+  display: flex;
+  gap: 2px;
+  padding: 0 80px;
+}
+
+/* Bottons 2*/
+.portifolio2 .interface2 .btn-social4 button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #76db98;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 40px 0px;
+  justify-content: center;
+}
+section.portifolio2 .interface2 .flex4 .btn-social4 {
+  display: none;
+}
+
+/* MEUS CERTIFICADOS */
+section.meus-certi .titulo {
+  margin-top: 130px;
+}
+section.meus-certi .slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 800px;
+  height: 700px;
+}
+section.meus-certi .slider .slides {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 190%;
+  position: relative;
+  transition: 2s;
+}
+.slide img {
+  width: 800px;
+  margin-top: -150px;
+}
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: 470px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid #76db98;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(last-child) {
+  margin-right: 30px;
+}
+.manual-btn:hover {
+  background-color: rgba(136, 136, 136, 0.363);
+}
+
+/* RADIOS */
+#radio1:checked ~ .firts {
+  margin-right: 10%;
+}
+#radio2:checked ~ .firts {
+  margin-left: -100%;
+}
+#radio3:checked ~ .firts {
+  margin-left: -200%;
+}
+#radio4:checked ~ .firts {
+  margin-left: -318%;
+}
